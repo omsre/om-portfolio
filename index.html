@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Om - Protfolio</title>
+  <meta name="title" content="Om Protfolio">
+  <meta name="description" content="Om Protfolio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/om-title.png" type="image/png+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/cicd2.gif">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">OM ALOK MISHRA</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Nagpur, Maharashtra, India
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      
+
+      <a href="tel:+918329208471" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 832 920 8471</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:om562mishra@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">om562mishra@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <svg width="160" height="50" xmlns="http://www.w3.org/2000/svg">
+            <filter id="colorFilter" color-interpolation-filters="sRGB">
+                <feColorMatrix type="matrix" values="
+                    0.8941 0.6275 0.3608 0 0
+                    0.8941 0.6275 0.3608 0 0
+                    0.8941 0.6275 0.3608 0 0
+                    0      0      0      1 0
+                " />
+            </filter>
+            <image  href="./assets/images/om-logo.png" width="160" height="50" />
+        </svg>
+    </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Projects</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Me</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#skill" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Skills</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact Me</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://drive.google.com/file/d/11_mrt7z7YQHvVyzuz3-sg3ojckbqdcnZ/view?usp=drivesdk" target="_blank" class="btn btn-secondary">
+        <span class="text text-1">Explore My Resume</span>
+
+        <span class="text text-2" aria-hidden="true">Explore My Resume</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+  <article>
+    <!-- #HERO -->
+    <section class="hero text-center" aria-label="home" id="home">
+      <ul class="hero-slider" data-hero-slider>
+        <!-- Slide 1: UI/UX Developer -->
+        <li class="slider-item active" data-hero-slider-item>
+          <div class="slider-bg">
+            <img src="./assets/images/cicd9.gif" width="1880" height="950" alt="UI/UX Design" class="img-cover">
+          </div>
+
+          <p class="label-2 section-subtitle slider-reveal">Creative & User-Centric</p>
+
+          <h1 class="display-1 hero-title slider-reveal">
+            I am <span style="background-color: #E4C590; color: #000000">UI/UX
+            Developer</span>
+          </h1>
+
+          <p class="body-2 hero-text slider-reveal">
+            Designing seamless, intuitive, and engaging user experiences that people love.
+          </p>
+
+          <a href="#skill" class="btn btn-primary slider-reveal">
+            <span class="text text-1">View My Skills</span>
+            <span class="text text-2" aria-hidden="true">View My Skills</span>
+          </a>
+        </li>
+
+        <!-- Slide 2: Cloud & DevOps Engineer -->
+        <li class="slider-item" data-hero-slider-item>
+          <div class="slider-bg">
+            <img src="./assets/images/cicd9.gif" width="1880" height="950" alt="Cloud & DevOps" class="img-cover">
+          </div>
+
+          <p class="label-2 section-subtitle slider-reveal">Scalable & Reliable</p>
+
+          <h1 class="display-1 hero-title slider-reveal">
+            I am <span style="background-color: #E4C590; color: #000000">
+            DevOps Engineer</span>
+          </h1>
+
+          <p class="body-2 hero-text slider-reveal">
+            Building robust cloud infrastructures and automating deployment pipelines with DevOps best practices.
+          </p>
+
+          <a href="#project" class="btn btn-primary slider-reveal">
+            <span class="text text-1">Explore My Projects</span>
+            <span class="text text-2" aria-hidden="true">Explore My Projects</span>
+          </a>
+        </li>
+
+        <!-- Slide 3: IIIT Nagpur Student -->
+        <li class="slider-item" data-hero-slider-item>
+          <div class="slider-bg">
+            <img src="./assets/images/cicd9.gif" width="1880" height="950" alt="IIIT Nagpur" class="img-cover">
+          </div>
+
+          <p class="label-2 section-subtitle slider-reveal">Passionate & Driven</p>
+
+          <h1 class="display-1 hero-title slider-reveal">
+            I am <span style="background-color: #E4C590; color: #000000">IIITN
+            Student</span>
+          </h1>
+
+          <p class="body-2 hero-text slider-reveal">
+            Exploring technology, solving real-world problems, and growing as a future tech leader at IIIT Nagpur.
+          </p>
+
+          <a href="#about" class="btn btn-primary slider-reveal">
+            <span class="text text-1">My College Journey</span>
+            <span class="text text-2" aria-hidden="true">My College Journey</span>
+          </a>
+        </li>
+      </ul>
+
+      <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+        <ion-icon name="chevron-back"></ion-icon>
+      </button>
+
+      <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+        <ion-icon name="chevron-forward"></ion-icon>
+      </button>
+
+      <a href="#contact" class="hero-btn has-after">
+        <img src="./assets/images/hero-icon.png" width="48" height="48" alt="Contact Icon">
+        <span class="label-2 text-center span">Get in Touch</span>
+      </a>
+    </section>
+  </article>
+</main>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+<section class="section service bg-black-10 text-center" aria-label="service" id="project">
+  <div class="container">
+
+    <p class="section-subtitle label-2">DevOps Projects</p>
+
+    <h2 class="headline-1 section-title">Projects</h2>
+
+    <p class="section-text">
+      Highlighting key projects that showcase my expertise in DevOps, Automation and Cloud Infrastructure.
+    </p>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="service-card">
+          <a href="https://mrcloudbook.com/robot-shop-a-comprehensive-exploration-of-its-3-tier-architecture-8-services-and-2-databases/" target="_blank" class="has-before hover:shine" >
+            <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+              <img src="./assets/images/robot.png" width="285" height="336" loading="lazy" alt="Stan’s Robot Shop Deployment"
+                class="img-cover">
+            </figure>
+          </a>
+
+          <div class="card-content">
+            <h3 class="title-4 card-title">
+              <a href="#">Three-tier Stan’s Robot Shop Deployment</a>
+            </h3>
+            <a href="https://mrcloudbook.com/robot-shop-a-comprehensive-exploration-of-its-3-tier-architecture-8-services-and-2-databases/" target="_blank" class="btn-text hover-underline label-2">View Details</a>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card">
+          <a href="https://mrcloudbook.com/netflix-clone-ci-cd-with-monitoring-email-devsecops/" target="_blank" class="has-before hover:shine">
+            <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+              <img src="./assets/images/project2.png" width="285" height="336" loading="lazy" alt="CI/CD Pipeline"
+                class="img-cover">
+            </figure>
+          </a>
+
+          <div class="card-content">
+            <h3 class="title-4 card-title">
+              <a href="#">CI/CD Pipeline using Jenkins</a>
+            </h3>
+            <a href="https://mrcloudbook.com/netflix-clone-ci-cd-with-monitoring-email-devsecops/" class="btn-text hover-underline label-2" target="_blank">View Details</a>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card">
+          <a href="https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions/" target="_blank" class="has-before hover:shine">
+            <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+              <img src="./assets/images/project3.png" width="285" height="336" loading="lazy" alt="Terraform Infrastructure"
+                class="img-cover">
+            </figure>
+          </a>
+
+          <div class="card-content">
+            <h3 class="title-4 card-title">
+              <a href="#">Creation of Infrastructure using Terraform</a>
+            </h3>
+            <a href="https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions/" class="btn-text hover-underline label-2" target="_blank">View Details</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <img src="./assets/images/star.gif" width="246" height="412" loading="lazy" alt="shape"
+      class="shape shape-1 move-anim">
+    <img src="./assets/images/star.gif" width="343" height="345" loading="lazy" alt="shape"
+      class="shape shape-2 move-anim">
+
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+<section class="section about text-center" aria-labelledby="about-label" id="about">
+  <div class="container">
+    <div class="about-content">
+      <p class="label-2 section-subtitle" id="about-label">About Me</p>
+
+      <h2 class="headline-1 section-title">I am Om Alok Mishra</h2>
+
+      <p class="section-text">
+        Namaste! I am Om Alok Mishra from Orange City - Nagpur.  
+        My journey into the world of technology began in school when I became curious about how websites appear in browsers.  
+        This curiosity led me to explore Linux servers, cloud technologies, and DevOps, laying the foundation for my passion for web development.
+      </p>
+
+      <p class="section-text">
+        Currently, I am in my third year (6th semester) at the Indian Institute of Information Technology, Nagpur.  
+        Over the years, I've worked on various DevOps projects and completed two internships, gaining valuable hands-on experience in real-world scenarios.
+      </p>
+
+      <div class="contact-label">Get in Touch</div>
+
+      <a href="tel:+918329208471" class="body-1 contact-number hover-underline">+91 832 920 8471</a>
+
+      <a href="https://drive.google.com/file/d/11_mrt7z7YQHvVyzuz3-sg3ojckbqdcnZ/view?usp=drivesdk" target="_blank" class="btn btn-primary">
+        <span class="text text-1">Learn More About Me</span>
+        <span class="text text-2" aria-hidden="true">Learn More</span>
+      </a>
+    </div>
+
+    <figure class="about-banner">
+      <img src="./assets/images/about2.1.png" width="570" height="570" loading="lazy" alt="about banner" class="w-100">
+
+      <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+        <img src="./assets/images/transparent.png" width="50" height="50" loading="lazy" alt=" " class="w-100">
+      </div>
+
+      <div class="abs-img abs-img-2 has-before">
+        <img src="./assets/images/badge-2.png" width="143" height="144" loading="lazy" alt="">
+      </div>
+      
+    </figure>
+
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #About2
+      -->
+
+<section class="special-dish text-center" aria-labelledby="dish-label">
+  <div class="special-dish-banner">
+    <img src="./assets/images/about2.1.png" width="540" height="500" loading="lazy" alt="special dish" class="img-cover">
+  </div>
+
+  <div class="special-dish-content bg-black-10">
+    <div class="container">
+
+      <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+      <p class="section-subtitle label-2">About Me</p>
+
+      <h2 class="headline-1 section-title">My Branch & Experience</h2>
+
+      <p class="section-text">
+        At IIIT Nagpur, in our branch CSE with HCIGT (Human-Computer Interaction and Game Development), we learn how to create anything with the user in mind — how to make things engaging, fun, and full of passion. We’re taught to find joy in what we build and to make things gamify for user so that user-get-engaged. Whenever we face failure, we search everywhere on the internet, rebuild, and often end up with even better and more surprising results. Because of this mindset, I’ve gained two hands-on project experiences.
+      </p>
+
+      <div class="wrapper">
+        <del class="del body-3">MERN Stack Intern</del>
+        <span class="span body-1">AWS Devops Engineer</span>
+      </div>
+
+      <a href="https://drive.google.com/file/d/11_mrt7z7YQHvVyzuz3-sg3ojckbqdcnZ/view?usp=drivesdk" target="_blank" class="btn btn-primary">
+        <span class="text text-1">View My Projects</span>
+        <span class="text text-2" aria-hidden="true">View My Projects</span>
+      </a>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+<style>
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .skills .badge {
+    display: inline-block;
+  }
+
+  .badge.label-1 {
+  font-weight: bold;
+}
+</style>
+
+<section class="section menu" aria-label="menu-label" id="skill">
+  <div class="container">
+
+    <p class="section-subtitle text-center label-2">Technical Expertise</p>
+    <h2 class="headline-1 section-title text-center">Skills</h2>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/s1.png" width="100" height="100" loading="lazy" alt="HTML5, CSS, JS, Python, MySQL" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <span class="card-title">Development</span>
+              <span class="span title-2"></span>
+            </div>
+            <div class="skills">
+              <span class="badge label-1">HTML5</span>
+              <span class="badge label-1">CSS3</span>
+              <span class="badge label-1">JavaScript</span>
+              <span class="badge label-1">Typescript</span>
+              <span class="badge label-1">Python</span>
+              <span class="badge label-1">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/s3.png" width="100" height="100" loading="lazy" alt="Figma, Adobe XD" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <span class="card-title">UI/UX Tools</span>
+              <span class="span title-2"></span>
+            </div>
+            <div class="skills">
+              <span class="badge label-1">Figma</span>
+              <span class="badge label-1">Adobe XD</span>
+              <span class="badge label-1">Blender</span>
+              <span class="badge label-1">Three js</span>
+              <span class="badge label-1">React.js</span>
+              <span class="badge label-1">Next.js</span>
+              <span class="badge label-1">Material UI</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/s2.png" width="100" height="100" loading="lazy" alt="DevOps Tools" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <span class="card-title">DevOps Stack & Cloud</span>
+              <span class="span title-2"></span>
+            </div>
+            <div class="skills">
+              <span class="badge label-1">Git</span>
+              <span class="badge label-1">GitHub</span>
+              <span class="badge label-1">Maven</span>
+              <span class="badge label-1">Jenkins</span>
+              <span class="badge label-1">Docker</span>
+              <span class="badge label-1">Kubernetes (K8s)</span>
+              <span class="badge label-1">AWS</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/s4.png" width="100" height="100" loading="lazy" alt="DevOps Tools" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <span class="card-title">Automation & Monitoring</span>
+              <span class="span title-2"></span>
+            </div>
+            <div class="skills">
+              <span class="badge label-1">Ansible</span>
+              <span class="badge label-1">Terraform</span>
+              <span class="badge label-1">Prometheus</span>
+              <span class="badge label-1">Grafana</span>
+              <span class="badge label-1">Argo CD</span>
+              <span class="badge label-1">GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/s5.webp" width="100" height="100" loading="lazy" alt="GitHub Actions, Azure" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <span class="card-title">Cloud Platform</span>
+              <span class="badge label-1" style="background-color: white">NEW</span>
+              <span class="span title-2"></span>
+            </div>
+            <div class="skills">
+              <span class="badge label-1">Azure</span>
+              <span class="badge label-1">GCP</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/s6.png" width="100" height="100" loading="lazy" alt="MLOPS" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <span class="card-title">Machine Learning & AR/VR</span>
+              <span class="badge label-1" style="background-color: white">NEW</span>
+              <span class="span title-2"></span>
+            </div>
+            <div class="skills">
+              <span class="badge label-1">MLOps</span>
+              <span class="badge label-1">LLMOps</span>
+              <span class="badge label-1">Aruco</span>
+              <span class="badge label-1">Unity XR</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <p class="menu-text text-center" style="color: #E4C590">
+      BE CREATIVE - BE PASSIONATE - BE SKILLFUL
+    </p>
+
+    <a href="https://drive.google.com/file/d/11_mrt7z7YQHvVyzuz3-sg3ojckbqdcnZ/view?usp=drivesdk" target="_blank" class="btn btn-primary">
+      <span class="text text-1">View All Skills</span>
+      <span class="text text-2" aria-hidden="true">View All Skills</span>
+    </a>
+
+    <img src="./assets/images/star2.gif" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+    <img src="./assets/images/star2.gif" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/footer9.gif')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Shine your light and make a positive impact on the world; there is nothing so honorable as helping improve the lives of others.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+			<p class="label-2 profile-name">My Motivation</p>
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+          <img src="./assets/images/star.gif" width="343" height="345" loading="lazy" alt="shape"
+      class="shape shape-1 move-anim">
+      </section>
+
+
+  <!-- STRENGHT -->
+      <section class="section features text-center" aria-label="features">
+  <div class="container">
+
+    <p class="section-subtitle label-2">Why Choose Me</p>
+
+    <h2 class="headline-1 section-title">My Strengths</h2>
+
+    <ul class="grid-list">
+
+      <li class="feature-item">
+        <div class="feature-card">
+          <div class="card-icon">
+            <img src="./assets/images/cloud1.png" width="100" height="80" loading="lazy" alt="icon">
+          </div>
+          <h3 class="title-2 card-title">Cloud Flexibility</h3>
+          <p class="label-1 card-text">I am flexible with various cloud platforms, adapting seamlessly to different environments.</p>
+        </div>
+      </li>
+
+      <li class="feature-item">
+        <div class="feature-card">
+          <div class="card-icon">
+            <img src="./assets/images/iiitn1.png" width="100" height="80" loading="lazy" alt="icon">
+          </div>
+          <h3 class="title-2 card-title">IIIT Nagpur Student</h3>
+          <p class="label-1 card-text">Proud to be a student at IIIT Nagpur, gaining top-notch education and practical experience.</p>
+        </div>
+      </li>
+
+      <li class="feature-item">
+        <div class="feature-card">
+          <div class="card-icon">
+            <img src="./assets/images/type1.png" width="100" height="80" loading="lazy" alt="icon">
+          </div>
+          <h3 class="title-2 card-title">Tech-Savvy</h3>
+          <p class="label-1 card-text">Proficient in technologies like AWS, DevOps, UI/UX, HCI, and more.</p>
+        </div>
+      </li>
+
+      <li class="feature-item">
+        <div class="feature-card">
+          <div class="card-icon">
+            <img src="./assets/images/steps-1.png" width="100" height="80" loading="lazy" alt="icon">
+          </div>
+          <h3 class="title-2 card-title">Experienced & Skilled</h3>
+          <p class="label-1 card-text">Hands-on experience with diverse projects, showcasing a strong skill set.</p>
+        </div>
+      </li>
+
+    </ul>
+
+    <img src="./assets/images/star4.gif" width="320" height="315" loading="lazy" alt="shape" class="shape shape-1">
+
+  </div>
+  <!-- <center><img src="./assets/images/star4.gif" width="320" height="315" loading="lazy" alt="shape" >
+  </center> -->
+  
+</section>
+
+
+
+
+
+<!-- 
+  - #EVENT
+-->
+
+<section class="section event bg-black-10" aria-label="event" id="event">
+  <div class="container">
+  	
+    
+    <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+    <h2 class="section-title headline-1 text-center">College Events</h2>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="event-card has-before hover:shine">
+
+          <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+            <img src="./assets/images/tf.png" width="350" height="450" loading="lazy"
+              alt="Tantrafiesta 2024" class="img-cover">
+
+            <time class="publish-date label-2" datetime="2024-09-24">24/09/2024</time>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle label-2 text-center">Technical Festival</p>
+
+            <h3 class="card-title title-2 text-center">
+              Tantrafiesta 2024
+            </h3>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="event-card has-before hover:shine">
+
+          <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+            <img src="./assets/images/av.png" width="350" height="450" loading="lazy"
+              alt="Abhivyakti 2025" class="img-cover">
+
+            <time class="publish-date label-2" datetime="2025-02-27">27/02/2025</time>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle label-2 text-center">Cultural Event</p>
+
+            <h3 class="card-title title-2 text-center">
+              Abhivyakti 2025
+            </h3>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="event-card has-before hover:shine">
+
+          <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+            <img src="./assets/images/k5.jpg" width="350" height="450" loading="lazy"
+              alt="Kshitij 2025" class="img-cover">
+
+            <time class="publish-date label-2" datetime="2025-01-31">31/01/2025</time>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle label-2 text-center">Sport Event</p>
+
+            <h3 class="card-title title-2 text-center">
+              Kshitij 2025
+            </h3>
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+    <a href="https://iiitn.ac.in/photo-gallery.php" target="_blank" class="btn btn-primary">
+      <span class="text text-1">View Our Blog</span>
+
+      <span class="text text-2" aria-hidden="true">View Our Blog</span>
+    </a>
+    
+  </div>
+
+</section>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center" id="contact"
+    style="background-image: url('./assets/images/footer2.png')">
+    
+    <div class="container">
+      
+      <div class="footer-top grid-list">
+        
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/exp6.gif" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Nagpur, Maharashtra, India
+          </address>
+
+          <a href="mailto:om562mishra@gmail.com" class="body-4 contact-link">om562mishra@gmail.com</a>
+
+          <a href="tel:+918329208471" class="body-4 contact-link">Call : +91-832-9208471</a>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Contact Me</p>
+
+          <p class="label-1">
+            Send <span class="span">Mail</span>
+          </p>
+
+          <form action="mailto:om562mishra@gmail.com" method="post" enctype="text/plain" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Send</span>
+
+              <span class="text text-2" aria-hidden="true">Send</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#home" class="label-2 footer-link hover-underline" style="color: #392424;">Home</a>
+          </li>
+
+          <li>
+            <a href="#project" class="label-2 footer-link hover-underline" style="color: #000000;">Projects</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline" style="color: #392424;">About Me</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#skill" class="label-2 footer-link hover-underline" style="color: #392424;">Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="label-2 footer-link hover-underline" style="color: #000000;">Contact</a>
+          </li>
+
+          <li>
+            <a href="#event" class="label-2 footer-link hover-underline" style="color: #392424;">Events</a>
+          </li>
+
+        </ul>
+        
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright" style="color: #392424;">
+          &copy; 2025 Om-Protfolio. All Rights Reserved | Crafted by Om Alok Mishra</a>
+        </p>
+
+      </div>
+      
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
